@@ -3,7 +3,7 @@
   <p><strong>Contextual Counterfactual Credit Assignment</strong></p>
   <p>
     <a href="https://eit-east-lab.github.io/C3/"><img src="https://img.shields.io/badge/Project-Page-B24A2F" alt="Project Page"></a>
-    <a href="https://github.com/EIT-EAST-Lab/C3"><img src="https://img.shields.io/badge/Paper-Submission%20Under%20Review-7B2F1A" alt="Paper submission under review"></a>
+    <a href="https://eit-east-lab.github.io/C3/assets/paper/C3Release.pdf"><img src="https://img.shields.io/badge/Paper-Submission%20PDF-7B2F1A" alt="Submission PDF"></a>
     <a href="docs/IMPLEMENTATION_AUDIT.md"><img src="https://img.shields.io/badge/Paper-Implementation%20Audit-8A2BE2" alt="Paper Implementation Audit"></a>
     <a href="docs/RELEASE_POLICY.md"><img src="https://img.shields.io/badge/Release-Policy-0A66C2" alt="Release Policy"></a>
     <a href=".github/workflows/ci-lite.yml"><img src="https://img.shields.io/badge/CI-Lite%20Gate-2EA043" alt="CI Lite Gate"></a>
@@ -12,6 +12,7 @@
   </p>
   <p>
     <a href="https://eit-east-lab.github.io/C3/">Project Page</a> |
+    <a href="https://eit-east-lab.github.io/C3/assets/paper/C3Release.pdf">Submission PDF</a> |
     <a href="docs/GETTING_STARTED.md">Getting Started</a> |
     <a href="docs/CODE_MAP.md">Code Map</a> |
     <a href="docs/IMPLEMENTATION_CHECKLIST.md">Implementation Checklist</a> |
@@ -21,7 +22,7 @@
 
 Reference implementation for the paper **Contextual Counterfactual Credit Assignment for Multi-Agent Reinforcement Learning in LLM Collaboration**.
 
-Paper status: submitted to arXiv on March 6, 2026, with public posting pending. The companion project page is available at [eit-east-lab.github.io/C3](https://eit-east-lab.github.io/C3/).
+Paper status: submitted to arXiv on March 6, 2026; public posting pending moderation. The companion project page is available at [eit-east-lab.github.io/C3](https://eit-east-lab.github.io/C3/), and the current submission PDF is available [here](https://eit-east-lab.github.io/C3/assets/paper/C3Release.pdf).
 
 ## TL;DR
 
@@ -84,6 +85,7 @@ Corresponding local directories (`data/`, `artifacts/`, `ckpt/`, `runs/`, `wandb
 ## Quick Navigation
 
 - **Project Page**: [C3 Paper Page](https://eit-east-lab.github.io/C3/)
+- **Submission PDF**: [C3Release.pdf](https://eit-east-lab.github.io/C3/assets/paper/C3Release.pdf)
 - **New User**: [Getting Started Guide](docs/GETTING_STARTED.md)
 - **Code Layout**: [Code Map](docs/CODE_MAP.md)
 - **Paper-to-Code Mapping**: [Implementation Audit](docs/IMPLEMENTATION_AUDIT.md)

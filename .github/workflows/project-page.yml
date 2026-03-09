@@ -36,10 +36,12 @@ jobs:
 
       - name: Assemble static site
         run: |
-          mkdir -p _site/assets/figs
+          mkdir -p _site
           cp project-page/index.html _site/index.html
           cp project-page/styles.css _site/styles.css
           cp project-page/script.js _site/script.js
+          cp -r project-page/assets _site/
+          mkdir -p _site/assets/figs
           cp figs/C3-Logo.png _site/assets/figs/C3-Logo.png
           cp figs/fig1_overview.png _site/assets/figs/fig1_overview.png
           cp figs/fig_learning_dynamics_4b.png _site/assets/figs/fig_learning_dynamics_4b.png

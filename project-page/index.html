@@ -8,7 +8,25 @@
     name="description"
     content="Project page for C3: Contextual Counterfactual Credit Assignment for Multi-Agent Reinforcement Learning in LLM Collaboration."
   >
-  <!-- Deployment trigger comment to refresh GitHub Pages after repository settings changes. -->
+  <meta name="theme-color" content="#b24a2f">
+  <link rel="canonical" href="https://eit-east-lab.github.io/C3/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://eit-east-lab.github.io/C3/">
+  <meta property="og:title" content="C3 - Contextual Counterfactual Credit Assignment">
+  <meta
+    property="og:description"
+    content="Decision-level credit assignment for collaborative LLM systems via fixed-context replay and leave-one-out baselines."
+  >
+  <meta property="og:image" content="https://eit-east-lab.github.io/C3/assets/figs/C3-Logo.png">
+  <meta property="og:image:alt" content="C3 logo for the project page">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="C3 - Contextual Counterfactual Credit Assignment">
+  <meta
+    name="twitter:description"
+    content="Project page for C3: decision-level credit assignment for multi-agent reinforcement learning in LLM collaboration."
+  >
+  <meta name="twitter:image" content="https://eit-east-lab.github.io/C3/assets/figs/C3-Logo.png">
+  <link rel="icon" type="image/png" href="assets/figs/C3-Logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -49,6 +67,7 @@
 
           <div class="hero-actions">
             <a class="button button-primary" href="https://github.com/EIT-EAST-Lab/C3">Code</a>
+            <a class="button" href="assets/paper/C3Release.pdf">Submission PDF</a>
             <a class="button" href="https://github.com/EIT-EAST-Lab/C3/blob/main/docs/GETTING_STARTED.md">Getting Started</a>
             <a class="button" href="https://github.com/EIT-EAST-Lab/C3/blob/main/docs/IMPLEMENTATION_AUDIT.md">Implementation Audit</a>
             <a class="button" href="#paper-status">Paper Status</a>
@@ -57,8 +76,11 @@
           <div class="status-strip" id="paper-status">
             <div class="status-card">
               <span class="status-label">Status</span>
-              <strong>Submitted to arXiv, under review</strong>
-              <p>This page reflects the March 6, 2026 submission manuscript. The public arXiv link will be added once it is live.</p>
+              <strong>Submitted to arXiv; public posting pending moderation</strong>
+              <p>
+                This page reflects the March 6, 2026 submission manuscript. You can read the current PDF
+                <a class="inline-link" href="assets/paper/C3Release.pdf">here</a>.
+              </p>
             </div>
             <div class="status-card">
               <span class="status-label">Setting</span>
@@ -333,7 +355,12 @@ bash scripts/reproduce/smoke.sh --task math --limit 1 --print_example 0</code></
               If C3 or this repository helps your research, please cite the manuscript below. The arXiv identifier can be
               filled in once the public posting is available.
             </p>
-            <button class="button button-primary" id="copy-bibtex" type="button">Copy BibTeX</button>
+            <div class="citation-actions">
+              <button class="button button-primary" id="copy-bibtex" type="button">Copy BibTeX</button>
+              <a class="button" href="assets/C3.bib">Download BibTeX</a>
+              <a class="button" href="assets/paper/C3Release.pdf">Open PDF</a>
+            </div>
+            <p class="copy-status" id="copy-status" aria-live="polite"></p>
           </div>
           <pre class="citation-block" id="bibtex"><code>@article{chen2026contextual,
   title={Contextual Counterfactual Credit Assignment for Multi-Agent Reinforcement Learning in LLM Collaboration},
@@ -350,6 +377,8 @@ bash scripts/reproduce/smoke.sh --task math --limit 1 --print_example 0</code></
       <p>C3 project page for the March 6, 2026 preprint manuscript.</p>
       <div class="footer-links">
         <a href="https://github.com/EIT-EAST-Lab/C3">Repository</a>
+        <a href="assets/paper/C3Release.pdf">Submission PDF</a>
+        <a href="assets/C3.bib">BibTeX</a>
         <a href="https://github.com/EIT-EAST-Lab/C3/blob/main/README.md">README</a>
         <a href="https://github.com/EIT-EAST-Lab/C3/blob/main/docs/GETTING_STARTED.md">Docs</a>
       </div>

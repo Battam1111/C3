@@ -7,3 +7,5 @@
 *.css text eol=lf
 *.js text eol=lf
 *.yml text eol=lf
+*.bib text eol=lf
+*.pdf binary
