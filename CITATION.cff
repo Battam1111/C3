@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite our paper."
+message: "If you use this software, please cite our arXiv paper."
 title: "C3: Contextual Counterfactual Credit Assignment for Multi-Agent Reinforcement Learning in LLM Collaboration"
 type: software
 license: Apache-2.0
@@ -25,7 +25,7 @@ keywords:
   - large language models
   - counterfactual evaluation
   - RLHF infrastructure
-date-released: "2026-02-11"
+date-released: "2026-03-10"
 preferred-citation:
   type: article
   title: "Contextual Counterfactual Credit Assignment for Multi-Agent Reinforcement Learning in LLM Collaboration"
@@ -45,4 +45,7 @@ preferred-citation:
     - family-names: Zhang
       given-names: Wei
   year: 2026
-  notes: "Submitted manuscript dated March 6, 2026; public arXiv link pending."
+  journal: "arXiv"
+  doi: 10.48550/arXiv.2603.06859
+  url: "https://arxiv.org/abs/2603.06859"
+  notes: "arXiv:2603.06859 [cs.LG, cs.AI]."
